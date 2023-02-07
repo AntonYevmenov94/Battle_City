@@ -4,7 +4,7 @@ set(PROJECT_NAME Battle_City)
 
 project(Battle_City)
 
-add_executable(Battle_City src/main.cpp)
+add_executable(Battle_City src/main.cpp src/Renderer/ShaderProgramm.h src/Renderer/ShaderProgramm.cpp)
 
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
